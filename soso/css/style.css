@@ -1,0 +1,434 @@
+@charset "UTF-8";
+body{
+  font-size: 16px;
+  color:rgb(96,96,96);
+}
+
+.inner{
+  width:840px;
+  margin:0 auto;
+}
+
+header h1{
+padding-top: 10px
+}
+
+h2{
+text-align: center;
+padding-top: 160px;
+padding-bottom:108px;
+}
+
+header{
+  width:100%;
+  height:70px;
+  position:fixed;
+  top:0;
+  left:0;
+  background-color:rgba(255,255,255,0.8);
+  font-size: 18px;
+  z-index:2;
+}
+
+header .inner{
+  width:1200px;
+  display:flex;
+  align-items: center;
+}
+
+header nav{
+width:520px;
+margin-left:540px;
+margin-right:auto;
+padding-top: 20px;
+}
+
+header nav ul{
+  display:flex;
+  list-style:none;
+justify-content: space-between;
+}
+
+header a{
+	text-decoration:none;
+	color:rgb(96,96,96);
+}
+
+#top{
+  width: auto;
+  height:800px;
+  background:url(../img/top1.jpg) center  no-repeat;
+  background-size: cover;
+}
+
+#top figure{
+  padding-top:300px;
+  text-align: center;
+}
+
+#about{
+  height: 800px;
+  background-image: url(../img/youkan_kari.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #555555;
+}
+
+
+
+#about p{
+  width:600px;
+  text-align:center;
+  line-height:55px;
+  margin:0 auto;
+}
+
+
+
+#ogura{
+  height: 687px;
+  background-image: url(../img/ogura_bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#ogura_bg{
+  width:638px;
+  height:196px;
+  background-color:rgb(250,247,196);
+  position:relative;
+ top:56px;
+  z-index:0;
+}
+
+#ogura_detail{
+  width:450px;
+ height:150px;
+ padding-top:20px;
+ margin-left:50px;
+}
+
+#ogura_ph{
+float:right;
+ position:relative;
+ bottom:200px;
+}
+
+#ogura_detail h3{
+font-size:30px;
+font-family: kan415typos-std, sans-serif;
+font-style: normal;
+font-weight: 400;
+margin-bottom:26px;
+color:rgb(227,26,104);
+}
+
+.menu_font{
+	font-size:20px;
+}
+
+
+#maccha{
+width:100%;
+height:500px;
+  background-image: url(../img/maccha_bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#maccha_ph{
+	position:absolute;
+	z-index:1;
+}
+
+#maccha_bg{
+  width:638px;
+  height:196px;
+  float:right;
+  background-color:rgb(250,247,196);
+  position:relative;
+  top:36px;
+  z-index:0;
+
+}
+
+#maccha_deteil{
+width:452px;
+height:150px;
+margin-top:20px;
+margin-left:142px;
+}
+
+
+#maccha_deteil h3{
+font-size:30px;
+font-family: kan415typos-std, sans-serif;
+font-style: normal;
+font-weight: 400;
+margin-bottom:26px;
+color:rgb(69,132,70);
+}
+
+.inner_03{
+	line-height:26px;
+	margin-bottom:14px;
+}
+
+.inner_04{
+font-size:20px;
+text-align:right;
+margin-right:10px;
+}
+
+
+#maccha_contents{
+ padding-top:96px;
+  height:322px;
+}
+
+#shiroan{
+  width:100%;
+  height:500px;
+  background-image: url(../img/shiroan_bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#shiroan_contents{
+	height:322px;
+}
+
+#shiroan_bg{
+  width:638px;
+  height:196px;
+  background-color:rgb(250,247,196);
+  position:relative;
+  top:150px;
+  z-index:0;
+}
+
+#shiroan_detail{
+  width:450px;
+ height:150px;
+ padding-top:20px;
+ margin-left:50px;
+}
+
+#shiroan_ph{
+float:right;
+ position:relative;
+ bottom:98px;
+}
+
+#shiroan_detail h3{
+font-size:30px;
+font-family: kan415typos-std, sans-serif;
+font-style: normal;
+font-weight: 400;
+margin-bottom:26px;
+color:rgb(79,88,152);
+}
+
+
+.inner_05{
+font-size:20px;
+text-align:right;
+}
+
+#kokutou{
+ width:100%;
+height:500px;
+  background-image: url(../img/kokutou_bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#kokutou_contents{
+	padding-top:98px;
+}
+
+#kokutou_ph{
+	position:absolute;
+	z-index:1;
+}
+
+#kokutou_bg{
+    width:638px;
+  height:196px;
+  float:right;
+  background-color:rgb(250,247,196);
+  position:relative;
+  top:56px;
+  z-index:0;
+}
+
+#kokutou_detail{
+ width:452px;
+height:150px;
+margin-top:20px;
+margin-left:142px;
+}
+
+#kokutou_detail h3{
+font-size:30px;
+font-family: kan415typos-std, sans-serif;
+font-style: normal;
+font-weight: 400;
+margin-bottom:26px;
+color:rgb(98,45,37);
+}
+
+
+#season{
+ width:100%;
+height:500px;
+  background-image: url(../img/season_bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#season_contents{
+	height:322px;
+}
+
+#season_bg{
+	  width:638px;
+  height:196px;
+  background-color:rgb(250,247,196);
+  position:relative;
+  top:150px;
+  z-index:0;
+}
+
+#season_detail{
+	  width:450px;
+ height:150px;
+ padding-top:20px;
+ margin-left:50px;
+
+}
+
+#season_ph{
+float:right;
+ position:relative;
+ bottom:98px;
+}
+
+#season_detail h3{
+font-size:30px;
+font-family: kan415typos-std, sans-serif;
+font-style: normal;
+font-weight: 400;
+margin-bottom:26px;
+color:rgb(244,64,114);
+}
+
+
+#shop{
+  width:100%;
+  height:880px;
+  background-image: url(../img/shop_bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#shop_contents01{
+width:880px;
+height:250px;
+margin:0 auto;
+}
+
+#rumine{
+  width:440px;
+  height:150px;
+float:left;
+}
+#shop_ph01{
+  float:left;
+}
+
+
+#hikarie{
+  width:440px;
+    height:150px;
+  float: left;
+}
+#shop_ph02{
+  float: left;
+}
+#shop_ph02 img{
+  max-width: 170px;
+height:auto;
+}
+
+#shop_contents02{
+clear:both;
+width:880px;
+height:210px;
+margin:0 auto;
+padding-top:40px;
+
+}
+
+#kitte{
+  width:440px;
+  height:150px;
+float:left;
+}
+#shop_ph03{
+  float:left;
+}
+
+#shop_ph03 img{
+  max-width: 170px;
+height:auto;
+}
+
+
+#haneda{
+  width:440px;
+    height:150px;
+  float: left;
+}
+#shop_ph04{
+  float: left;
+}
+
+
+
+#shop h3{
+  font-size:20px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+#shop p{
+line-height: 23px;
+}
+
+#shop img{
+  margin-right:15px;
+  max-width: 170px;
+height:auto;
+}
+
+
+footer{
+width:100%;
+height:260px;
+background-color:#FFF;
+}
+
+footer p{
+	line-height:25px;
+	text-align:center;
+	padding-top:95px;
+}
